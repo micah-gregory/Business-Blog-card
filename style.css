@@ -1,0 +1,57 @@
+body{
+    background-color: #F2F5F9;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.card{
+    background-color: #FFFFFF;
+    transform: translateY(20%);
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 400px;
+    min-width: 400px;
+    border-radius: 20px;
+}
+.card-img{
+    width: 100%;
+    border-radius: 20px;
+}
+.image{
+    position: relative;
+}
+.white-overlay{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 80%;
+}
+.title{
+    margin:20px;
+    font-size: 24px;
+    line-height: 30px;
+}
+.body-text{
+    margin-left: 20px;
+    font-size: 16px;
+}
+.avatar{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+    border: 5px solid #F2F5F9;
+}
+.line{
+    border-bottom: 2px solid #F2F5F9;
+}
+.profile{
+    display: flex;
+}
+.name{
+    margin-top: 20px;
+}
+.position{
+    margin-top: -20px;
+    color: #677489;
+}
