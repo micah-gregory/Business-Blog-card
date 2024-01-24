@@ -37,8 +37,8 @@ body{
 }
 .avatar{
     border-radius: 50%;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     margin: 20px;
     border: 5px solid #F2F5F9;
 }
@@ -49,9 +49,10 @@ body{
     display: flex;
 }
 .name{
-    margin-top: 20px;
+    margin-top: 30px;
+    font-weight: bold;
 }
 .position{
-    margin-top: -20px;
+    margin-top: -15px;
     color: #677489;
 }
